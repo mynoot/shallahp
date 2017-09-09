@@ -1,0 +1,28 @@
+BODY,TABLE,TR,TD,td,SELECT,input,DIV,form,TEXTAREA,center,option,pre,blockquote
+{font-size:20pt; font-family:돋음,굴림,sans-serif,Arial; color:#575656; line-height:120%}
+
+A:link {font-family:돋음,굴림,sans-serif,Arial; font-size:9pt; color:#056F9B; text-decoration:none;}/*링크처음상태*/ 
+A:visited {font-family:돋음,굴림,sans-serif,Arial; font-size:9pt; color:#056F9B; text-decoration:none;}/*방문한 적이 있는상태*/ 
+A:active {font-family:돋음,굴림,sans-serif,Arial; font-size:9pt; color:#575656; text-decoration:none;} /*클릭되는 순간*/
+A:hover {font-family:돋음,굴림,sans-serif,Arial; font-size:9pt; color:#575656; text-decoration:none;} /*마우스 올리면*/
+
+.search_btn, .reset_btn{
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.42857143;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: "Verlag-Book","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
